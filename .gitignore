@@ -1,0 +1,51 @@
+# Ignore Gradle build output directory
+build
+
+.idea
+*.iml
+target/
+!/.idea
+/.idea/*
+!/.idea/codeStyles
+!/.idea/inspectionProfiles
+*/**/.idea
+.shelf
+/*.iml
+/*.ipr
+/*.iws
+/buildSrc/.idea
+/buildSrc/.shelf
+/buildSrc/*.iml
+/buildSrc/*.ipr
+/buildSrc/*.iws
+/buildSrc/out
+/buildSrc/subprojects/*/*.iml
+/buildSrc/subprojects/*/out
+/out
+/subprojects/*/*.iml
+/subprojects/*/out
+/.teamcity/*.iml
+/.teamcity/target
+!/.teamcity/Gradle_Check_dsl.iml
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# IntelliJ files
+.idea
+*.iml
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
